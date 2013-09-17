@@ -6,6 +6,7 @@
   height: 100%;
   top: 0;
   left: 0;
+  text-align: center;
 
   &:before {
     content: '';
@@ -20,11 +21,14 @@ ul.deck {
   list-style:none;
   width: 90%;
   max-width: 300px;
-  margin: 20px auto 0;
+  margin: 0 auto;
   text-align: center;
   perspective: 800px;
   padding: 0;
   text-align: center;
+
+  vertical-align: middle;
+  display: inline-block;
 
   &.card-selected li.card {
     opacity: 0;
