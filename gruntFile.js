@@ -59,10 +59,11 @@ module.exports = function(grunt) {
           images: {
             files: [{
               expand: true, 
-              cwd: '<%= paths.src.root %>', 
+              cwd: '<%= paths.src.images %>', 
               src: ['**/*.png'], 
-              dest: '<%= paths.dist.root %>'
-            }] 
+              dest: '<%= paths.dist.images %>'
+            }]
+
           }
         },
         jasmine: {
