@@ -120,7 +120,7 @@ phantom.sendMessage = function() {
       if (!value) return value;
 
       // If we're a node
-      if (typeof(Node) !== 'undefined' && value instanceof Node) return '[ Node ]';
+      if (value instanceof Node) return '[ Node ]';
 
       // jasmine-given has expectations on Specs. We intercept to return a
       // String to avoid stringifying the entire Jasmine environment, which
@@ -236,14 +236,10 @@ phantom.sendMessage = function() {
 
           var testcases = map(suite.specs(), function(spec) {
             var failureMessages = [];
-            var specResults = spec.results();
-            var resultsItems = specResults.items_;
-            var resultsItemCount = resultsItems.length;
-
-            if (specResults.failedCount) {
+            if (spec.results().failedCount) {
               failures++;
-
-              for (var ii = 0; ii < resultsItemCount; ii++) {
+              var resultsItems = spec.results().items_;
+              for (var ii = 0; ii < resultsItems; ii++) {
                 var expectation = resultsItems[ii];
                 if (!expectation.passed()) {
                   failureMessages.push(expectation.message);
@@ -251,7 +247,7 @@ phantom.sendMessage = function() {
               }
             }
             return {
-              assertions: resultsItemCount,
+              assertions: spec.results().items_.length,
               className: getNestedSuiteName(spec.suite),
               name: spec.description,
               time: spec.duration / 1000,

@@ -18,6 +18,7 @@
 }
 
 ul.deck {
+  position: relative;
   list-style:none;
   width: 90%;
   max-width: 300px;
@@ -32,7 +33,7 @@ ul.deck {
 
   &.card-selected li.card {
     opacity: 0;
-    display: none;
+    z-index: 10;
   }
 
   li.card {
@@ -45,22 +46,26 @@ ul.deck {
     margin: 0 2.5% 5%;
     border-radius: 10px;
     text-align: center;
-    transition: opacity 0.5s;
 
     &.selected {
       width: 100%;
       transition: all 0.5s; 
       opacity: 1;
       display: block;
+      position: absolute;
+      margin: 0 auto;
+      top: 0;
+      left: 0;
+      height: 100%;
+      z-index: 100;
 
       figure.value {
-        margin-top: 50%;
         font-size: 7rem;
       }
       
       &.not-revealed {
         transform: rotateY(180deg);
-        -webkt-transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
         
         figure.value {
           display: none;
@@ -76,12 +81,26 @@ ul.deck {
         width: 100%;
         background: @cardBgColor;
         border-radius: 10px;
+        border: none;
     }
+      }
+
+      figure.value {
+        opacity: 0;
       }
 
       &.revealed {
         transform: none;
         -webkit-transform: none;
+
+        figure.value {
+          opacity: 1;
+          transition: opacity 0.5s;
+          &.infinity {
+            margin-top: 10%;
+            font-size: 15rem;
+          }
+        }
       }
     }
 
@@ -89,8 +108,7 @@ ul.deck {
       color: white;
       font-size: 1.5rem;
       margin-top: 40%;
-        backface-visibility: hidden;
-      &.card_Coffee {
+      &.coffee {
         background: url('images/coffee-cup.png') no-repeat;
         background-position: 6rem;
         text-indent: -3000rem;
