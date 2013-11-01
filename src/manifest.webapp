@@ -1,12 +1,11 @@
 {
-  "name": "Web Poker Planning",
+  "name": "Poker Planning",
   "description": "A set of cards for poker planning.",
   "version": "1.0.0",
-  "launch_path": "index.html",
   "fullscreen": "true",
   "icons": {
-    "60": "/img/poker-icon.png",
-    "128": "/img/poker-icon-128.png"
+    "60": "/images/logo-60.png",
+    "128": "/images/logo-128.png"
   },
   "developer": {
     "name": "Tehsis",

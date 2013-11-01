@@ -6,7 +6,6 @@ require.config({
         backbone: 'vendor/backbone/backbone',
         marionette: 'vendor/backbone.marionette/lib/backbone.marionette',
         handlebars: 'vendor/handlebars/handlebars.runtime',
-        webinstaller: 'vendor/webinstaller/webinstaller',
         shake: 'vendor/shake.js/shake'
     },
     shim: {
@@ -26,16 +25,11 @@ require.config({
         marionette: {
             deps: ['jquery', 'underscore', 'backbone'],
             exports: 'Marionette'
-        },
-        webinstaller: {
-          exports: 'Webinstaller'
         }
     }
 });
 
-require(['webinstaller', 'app'], function(WebInstaller, app) {
-  var installer = new WebInstaller('http:localhost:9555/scrum.webapp');
-  installer.install();
+require(['app'], function(app, WebInstaller) {
   app.start();
 });
 

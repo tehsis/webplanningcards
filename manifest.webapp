@@ -1,0 +1,16 @@
+{
+  "name": "Poker Plan",
+  "description": "A set of cards for poker planning.",
+  "version": "1.0.0",
+  "launch_path": "/index.html",
+  "fullscreen": "true",
+  "icons": {
+    "60": "/images/logo-60.png",
+    "128": "/images/logo-128.png"
+  },
+  "developer": {
+    "name": "Tehsis",
+    "url": "http://tehsis.com.ar"
+  },
+  "default_locale": "en"
+}
