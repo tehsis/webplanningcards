@@ -10,6 +10,7 @@
   "devDependencies": {
     "requirejs": "~2.1.8",
     "handlebars": "~1.0.0",
-    "webinstaller": "*"
+    "webinstaller": "*",
+    "fastclick": "~0.6.11"
   }
 }

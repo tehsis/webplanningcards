@@ -3,3 +3,4 @@ src/javascripts/vendor
 dist
 ./_SpecRunner.html
 app/
+www
