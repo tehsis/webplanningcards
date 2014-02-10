@@ -6,9 +6,13 @@ require.config({
         backbone: 'vendor/backbone/backbone',
         marionette: 'vendor/backbone.marionette/lib/backbone.marionette',
         handlebars: 'vendor/handlebars/handlebars.runtime',
-        shake: 'vendor/shake.js/shake'
+        shake: 'vendor/shake.js/shake',
+        fastclick: 'vendor/fastclick/lib/fastclick'
     },
     shim: {
+        fastclick: {
+          exports: 'Fastclick'
+        },
         handlebars: {
             exports: 'Handlebars'
         },

@@ -1,8 +1,9 @@
 define([
     'marionette',
     'routers/cards',
-    'controllers/cards'
-], function(Marionette, CardRouter, CardsController) {
+    'controllers/cards',
+    'fastclick',
+], function(Marionette, CardRouter, CardsController, FastClick) {
     var app = new Marionette.Application();
 
     app.addRegions({
@@ -18,6 +19,8 @@ define([
     app.on('initialize:after', function() {
       Backbone.history.start();
     });
+
+    FastClick.attach(document.body);
 
     // For some reason, requiring app on controllers
     // is returning 'undefined'. So I use this

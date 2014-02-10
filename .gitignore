@@ -1,4 +1,5 @@
 node_modules
 src/javascripts/vendor
 dist
-_SpecRunner.html
+./_SpecRunner.html
+app/

@@ -10,10 +10,10 @@ module.exports = function(grunt) {
                 templates: 'src/javascripts/views/templates/'
             },
             dist: {
-                root: 'dist/',
-                styles: 'dist/styles/',
-                images: 'dist/styles/images/',
-                js: 'dist/javascripts/'
+                root: 'www/',
+                styles: 'www/styles/',
+                images: 'www/styles/images/',
+                js: 'www/javascripts/'
             },
             tests: {
                 root: 'test/',
@@ -123,7 +123,7 @@ module.exports = function(grunt) {
         },
         clean: {
           dist: {
-            src: '<%= paths.dist.js %>**/*'
+            src: '<%= paths.dist.root %>**/*'
           },
           templates: {
             src: '<%= paths.src.js %>**/*.hbs.js'
