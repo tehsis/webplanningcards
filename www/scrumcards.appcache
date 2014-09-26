@@ -1,0 +1,23 @@
+CACHE MANIFEST
+
+#version 1.0 9-26-2014
+
+CACHE:
+
+#images
+
+
+#internal HTML documents
+
+
+#style sheets
+styles/scrumcards.css
+
+#style sheet images
+styles/images/coffee-cup.svg
+
+#javascript files
+javascripts/app.js
+
+NETWORK:
+*
