@@ -2,6 +2,8 @@ node_modules
 src/javascripts/vendor
 dist
 _SpecRunner.html
-app/
+app
 www
 .DS_Store
+.grunt
+npm-debug.log
