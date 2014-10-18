@@ -34,6 +34,9 @@ require.config({
 });
 
 require(['app'], function(app, WebInstaller) {
+  if (window.screen.mozLockOrientation) {
+    window.screen.mozLockOrientation('portrait');
+  }
   app.start();
 });
 

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg8449"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="scrumcardlogo.svg">
+  <defs
+     id="defs8451" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="231.46414"
+     inkscape:cy="453.37417"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-page="false"
+     inkscape:snap-grids="true"
+     inkscape:snap-to-guides="false"
+     inkscape:snap-bbox="true"
+     inkscape:window-width="1280"
+     inkscape:window-height="743"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata8454">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Background"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#34495e;fill-opacity:1;stroke:none"
+       id="rect8965"
+       width="775.26953"
+       height="1052.276"
+       x="-31.141405"
+       y="0.086253002" />
+  </g>
+  <g
+     inkscape:label="Card"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <rect
+       style="fill:#c0392b;fill-opacity:1;stroke:#ffffff;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect8969"
+       width="222.85712"
+       height="319.99997"
+       x="245.0648"
+       y="366.22427"
+       ry="31.428545" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot8979"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><flowRegion
+         id="flowRegion8981"><rect
+           id="rect8983"
+           width="54.285713"
+           height="102.85714"
+           x="288.57144"
+           y="455.21933" /></flowRegion><flowPara
+         id="flowPara8985"></flowPara></flowRoot>    <g
+       inkscape:groupmode="layer"
+       id="layer3"
+       inkscape:label="Value">
+      <text
+         xml:space="preserve"
+         style="font-size:209.5738678px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+         x="248.38341"
+         y="621.59467"
+         id="text8975"
+         sodipodi:linespacing="125%"
+         transform="scale(1.0620297,0.94159325)"><tspan
+           sodipodi:role="line"
+           id="tspan8977"
+           x="248.38341"
+           y="621.59467">∞</tspan></text>
+    </g>
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path9076"
+       sodipodi:cx="359.61432"
+       sodipodi:cy="530.11334"
+       sodipodi:rx="228.29448"
+       sodipodi:ry="223.24371"
+       d="m 587.9088,530.11334 a 228.29448,223.24371 0 1 1 -456.58896,0 228.29448,223.24371 0 1 1 456.58896,0 z"
+       transform="translate(-3.1209583,-3.8890888)" />
+  </g>
+</svg>

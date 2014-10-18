@@ -114,7 +114,6 @@ module.exports = function(grunt) {
                     mainConfigFile: '<%= paths.src.js %>init.js',
                     baseUrl: '<%= paths.src.js %>',
                     include: ['vendor/requirejs/require'],
-                    optimize: 'none',
                     preserveLicenseComments: false,
                     name: 'init',
                     out: '<%= paths.dist.js %>app.js' 
