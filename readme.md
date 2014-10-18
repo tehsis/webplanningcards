@@ -1,4 +1,4 @@
-[Web Poker Planning](http://tehsis.com.ar/pokerplanning/)
+[Web Poker Planning](http://tehsis.com.ar/pokerplanning/)![travis](https://travis-ci.org/tehsis/webplanningcards.svg?branch=master)
 =
 A set of cards for a [poker planning](https://en.wikipedia.org/wiki/Planning_poker) session.
 
